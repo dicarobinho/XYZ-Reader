@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">XYZ Reader</string>
+    <string name="welcome_xyz_reader">Welcome to XYZ Reader!</string>
+
+    <string name="action_refresh">Refresh</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="up">Back</string>
+    <string name="path_rosario_regular_ttf">Rosario-Regular.ttf</string>
+    <string name="by">by&#160;</string>
+    <string name="application_txt">application/txt</string>
+    <string name="Article">Article</string>
+    <string name="txt_extension">.txt</string>
+    <string name="_font"><![CDATA[</font>]]></string>
+    <string name="by_font"><![CDATA[\ by <font color=\'#ffffff\'>\]]></string>
+    <string name="Notes">Notes</string>
+    <string name="last_paragraph">Last paragraph</string>
+    <string name="last_paragraph_read">last paragraph read</string>
+    <string name="recyclerView_position_error">14</string>
+    <string name="error_loading_articles">Error loading articles!</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="no_articles_to_display">No Articles To Display!</string>
+    <string name="no_app_found">No apps found to do this action!</string>
+    <string name="articles_update">Articles Updated Susccesfully!</string>
+    <string name="N_A">N/A</string>
+
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/body_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/standard_margin"
+        android:paddingEnd="@dimen/standard_margin"
+        android:textSize="@dimen/text_size_16sp"
+        tools:text="This text is only for test" />
+
+    <LinearLayout
+        android:id="@+id/mark_last_paragraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/standard_margin"
+            android:layout_marginTop="@dimen/half_standard_margin"
+            android:layout_marginEnd="@dimen/standard_margin"
+            android:text="@string/last_paragraph_read"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/text_size_12sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/width_height_1dp"
+            android:layout_marginStart="@dimen/standard_margin"
+            android:layout_marginTop="@dimen/half_half_half_standard_margin"
+            android:layout_marginEnd="@dimen/standard_margin"
+            android:layout_marginBottom="@dimen/half_standard_margin"
+            android:background="@color/colorAccent" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/XYZReader/XYZReader-XYZReader.iml" filepath="$PROJECT_DIR$/XYZReader/XYZReader-XYZReader.iml" group="XYZReader/XYZReader" />
+      <module fileurl="file://$PROJECT_DIR$/andoid-XYZReader.iml" filepath="$PROJECT_DIR$/andoid-XYZReader.iml" group="XYZReader" />
+      <module fileurl="file://$PROJECT_DIR$/collapsingtoolbarlayout-subtitle-master/f.iml" filepath="$PROJECT_DIR$/collapsingtoolbarlayout-subtitle-master/f.iml" group="xyz-reader-starter-code-master/collapsingtoolbarlayout-subtitle-master" />
+    </modules>
+  </component>
+</project>

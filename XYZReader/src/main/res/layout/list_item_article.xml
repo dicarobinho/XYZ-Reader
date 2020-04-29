@@ -1,0 +1,52 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/half_half_standard_margin"
+    android:layout_marginTop="@dimen/half_half_standard_margin"
+    android:layout_marginRight="@dimen/half_half_standard_margin"
+    android:layout_marginBottom="@dimen/half_half_standard_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/photo_placeholder"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/ebooks"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/article_title"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingLeft="@dimen/standard_margin"
+            android:paddingTop="@dimen/standard_margin"
+            android:paddingRight="@dimen/standard_margin"
+            android:paddingBottom="@dimen/half_half_standard_margin"
+            android:textColor="@color/colorPrimaryText"
+            tools:text="The Scarlet Plague" />
+
+        <TextView
+            android:id="@+id/article_subtitle"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingLeft="@dimen/standard_margin"
+            android:paddingRight="@dimen/standard_margin"
+            android:paddingBottom="@dimen/standard_margin"
+            android:textColor="@color/colorSecondaryText"
+            tools:text="The Scarlet Plague" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

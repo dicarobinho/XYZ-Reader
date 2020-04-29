@@ -1,0 +1,25 @@
+<resources>
+    <!-- detail -->
+    <dimen name="detail_title_text_size">32sp</dimen>
+    <dimen name="detail_body_text_size">22sp</dimen>
+    <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.25</item>
+
+    <dimen name="fab_elevation">2dp</dimen>
+    <dimen name="fab_press_translation_z">6dp</dimen>
+    <dimen name="fab_margin">24dp</dimen>
+    <dimen name="standard_margin">16dp</dimen>
+    <dimen name="width_height_112dp">112dp</dimen>
+    <dimen name="half_standard_margin">8dp</dimen>
+    <dimen name="content_toolbar_insert_start">72dp</dimen>
+    <dimen name="button_width_height_56dp">56dp</dimen>
+    <dimen name="half_half_standard_margin">4dp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="width_height_48dp">48dp</dimen>
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="width_height_1dp">1dp</dimen>
+    <dimen name="text_size_12sp">12sp</dimen>
+    <dimen name="half_half_half_standard_margin">2dp</dimen>
+    <dimen name="width_height_200dp">200dp</dimen>
+    <dimen name="margin_88dp">88dp</dimen>
+
+</resources>
